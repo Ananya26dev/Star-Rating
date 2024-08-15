@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+span{
+  font-size: 75px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.gold{
+  color: gold;
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 50px; 
+  }
+  .container {
+    margin: 20px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  span {
+    font-size: 35px; 
+  }
+  .container {
+    margin: 10px; 
+  }
+}
